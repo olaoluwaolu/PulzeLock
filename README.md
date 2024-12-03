@@ -11,8 +11,8 @@ PulzeLock is an early prototype of a device capable of estimating heart rate, br
 
 # Theory - Vital Signs Extraction
 
-/-- Logan, can you explain how you extract each vital sign? Please also include figures!
-/-- Logan: try to mainly use pictures/figures and little text to explain it if possible
+- /-- Logan, can you explain how you extract each vital sign? Please also include figures!
+- /-- Logan: try to mainly use pictures/figures and little text to explain it if possible
 
 ## Heart Rate
 
@@ -31,7 +31,8 @@ Currently, our proposed algorithm for user identification via deep learning is u
 + Collecting longer PPG recordings (>1 minute)
 
 # Files + Description
-1. RaspiIDv2.py: The purpose of this file is to
-2. File2.xyz - text
+- /-- Logan: can you add in any files that you used here? 
+- RaspiIDv2.py: The purpose of this file is to
+- File2.xyz - text
 
 # Steps to run the system
