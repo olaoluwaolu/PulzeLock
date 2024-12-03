@@ -16,7 +16,7 @@ PulzeLock is an early prototype of a device capable of estimating heart rate, br
 # Future Work
 
 # Files + Description
-*RaspiIDv2.py - The purpose of this file is to
-*File2.xyz - text
+1. RaspiIDv2.py: The purpose of this file is to
+2. File2.xyz - text
 
 # Steps to run the system
