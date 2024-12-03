@@ -11,9 +11,17 @@ PulzeLock is an early prototype of a device capable of estimating heart rate, br
 
 # Theory - Vital Signs Extraction
 
+/-- Logan, can you explain how you extract each vital sign? Please also include figures!
+
 # Theory - User Identification
 
+/--Olaolu: Include the User ID pipeline + explain the reasoning + hyperparameters
+
 # Future Work
+
+Currently, our proposed algorithm for user identification via deep learning is unable to distinguish between users. Future work to improve this includes:
++ Developing an improved deep-learning algorithm for identification
++ Collecting longer PPG recordings (>1 minute)
 
 # Files + Description
 1. RaspiIDv2.py: The purpose of this file is to
