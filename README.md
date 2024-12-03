@@ -12,6 +12,13 @@ PulzeLock is an early prototype of a device capable of estimating heart rate, br
 # Theory - Vital Signs Extraction
 
 /-- Logan, can you explain how you extract each vital sign? Please also include figures!
+/-- Logan: try to mainly use pictures/figures and little text to explain it if possible
+
+## Heart Rate
+
+## Breathing Rate
+
+## SpO2
 
 # Theory - User Identification
 
