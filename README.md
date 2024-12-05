@@ -3,7 +3,8 @@ Today, fingerprint authentication systems are still susceptible to biometric spo
 
 PulzeLock is an early prototype of a device capable of estimating heart rate, breathing rate, and oxygen saturation using a user's PPG signal. The system also uses the PPG signal to authenticate enrolled users into the system  
 
-![image](https://github.com/user-attachments/assets/e8924b16-973c-4c70-b791-46fb9add8a88)
+![image](https://github.com/user-attachments/assets/8f85869d-9372-4721-8a69-4964229d7417)
+
 
 # Hardware Schematic
 
