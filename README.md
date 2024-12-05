@@ -12,6 +12,8 @@ PulzeLock is an early prototype of a device capable of estimating heart rate, br
 # Theory - Vital Signs Extraction
 
 Vital sign extraction is built around the method of using standard RGB video to act as a light-based pulse oximeter. A light is shown through the finger to illuminate the finger and a camera is used to record the change in light intesnity over time to create a photopthelysmogram.
+![image](https://github.com/user-attachments/assets/4a080818-9605-46e4-bff2-b64f43495168)
+
 ![image](https://github.com/user-attachments/assets/4b78aae6-d9e1-40ac-9eab-ceb596b92426)
 
 - /-- Logan: try to mainly use pictures/figures and little text to explain it if possible
