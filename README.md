@@ -46,8 +46,10 @@ Currently, our proposed algorithm for user identification via deep learning is u
 - activate.txt: Setups the python enviroment and installs the packages listed in 'requirements.txt'
 # Steps to run the system
 
-First: Move all 'pulzelock_main' files onto the Raspberry Pi device.
-Second: run ./activate.sh from the folder containing all of the system files.
-Third: run ./button_handler.sh 
+1. Move all 'pulzelock_main' files onto the Raspberry Pi device.
+
+2. run ./activate.sh from the folder containing all of the system files.
+
+3. run ./button_handler.sh 
 
 Ensure all files are in the same main directory.
