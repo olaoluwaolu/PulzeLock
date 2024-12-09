@@ -32,8 +32,8 @@ Currently, our proposed algorithm for user identification via deep learning is u
 - **RaspiIDv2.py**: This file loads the machine learning model, receives the PPG signal as an input and outputs the class that the signal belongs to. Based on the estimated class, it either welcomes the user or denies the user.
 - **button_handler.sh**: Polls GPIO pins to detect a button press. Updates the state of the system and calls system_control.sh
 - **system_control.sh**: Calls camera_script.sh, passes filepath argument to python_PPG.py script and system state as an argument. Calls RaspiIDv2.py
-- **camera_script.sh**: JONAS
-- **I2C_OLED.py**: JONAS
+- **camera_script.sh**: Responsible for executing the command to record the actual video, as well as simple user-instructions related to video recording. Script itself has different modes, of which the most prominent one is "record", passed as an argument. The actual recording command "libcamera-vid" has two main arguments: specifying recording length and file output-path.
+- **I2C_OLED.py**: Reads from output.txt and displays the read strings on the OLED. Based on example found at https://learn.adafruit.com/monochrome-oled-breakouts/python-usage-2 . Requires to enter a virtual Python environment, to install the libraries "sys", "json", "time", "board", "digitalio", "pillow" and "adafruit_ssd1306".
 - **requirements.txt**: Contains the required python packages to be installed
 - **activate.txt**: Setups the python enviroment and installs the packages listed in 'requirements.txt'
 # Steps to run the system
