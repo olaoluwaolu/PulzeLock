@@ -19,8 +19,10 @@ For vital signs extraction, we record an RGB video of the user's illuminated fin
 
 # Theory - User Identification
 
-/--Olaolu: Include the User ID pipeline + explain the reasoning + hyperparameters
-![PulzePioneerz - FinalPres](https://github.com/user-attachments/assets/9ebe305a-6c84-4e5a-8aa1-399e305f0838)
+Given a user's PPG, we try to authenticate them into the system. Below, we show the model used for this algorithm
+![PulzePioneerz - ID Pipeline](https://github.com/user-attachments/assets/d1fbcd06-75e5-40d8-8c0b-fb9a890a3d72)
+
+-OLAOLU: put hyperparameters
 
 
 # Future Work
@@ -30,9 +32,9 @@ Currently, our proposed algorithm for user identification via deep learning is u
 + Collecting longer PPG recordings (>1 minute)
 
 # Files + Description
-- python_PPG.py: This file takes the filepath of the video and the state of the system. This script processes the video into an array of values creating the PPG signal. Additionally it calculates the HR, SP02, and RR vital signs, storing the ouptut into a txt file. It then stores the PPG signal as a JSON to be used by other scripts later. 
-- RaspiIDv2.py: The purpose of this file is to
-- button_hnadler.sh: Polls GPIO pins to detect a button press. Updates the state of the system and calls system_control.sh
+- **python_PPG.py**: This file takes the filepath of the video and the state of the system. This script processes the video into an array of values creating the PPG signal. Additionally it calculates the HR, SP02, and RR vital signs, storing the ouptut into a txt file. It then stores the PPG signal as a JSON to be used by other scripts later. 
+- **RaspiIDv2.py**: The purpose of this file is to
+- **button_hnadler.sh**: Polls GPIO pins to detect a button press. Updates the state of the system and calls system_control.sh
 - system_control.sh: Calls camera_script.sh, passes filepath argument to python_PPG.py script and system state as an argument. Calls RaspiIDv2.py
 - camera_script.sh: JONAS
 - I2C_OLED.py: JONAS
