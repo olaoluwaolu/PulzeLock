@@ -20,6 +20,8 @@ For vital signs extraction, we record an RGB video of the user's illuminated fin
 # Theory - User Identification
 
 /--Olaolu: Include the User ID pipeline + explain the reasoning + hyperparameters
+![PulzePioneerz - FinalPres](https://github.com/user-attachments/assets/9ebe305a-6c84-4e5a-8aa1-399e305f0838)
+
 
 # Future Work
 
