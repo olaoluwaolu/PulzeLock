@@ -36,6 +36,10 @@ Currently, our proposed algorithm for user identification via deep learning is u
 - **I2C_OLED.py**: Reads from output.txt and displays the read strings on the OLED. Based on example found at https://learn.adafruit.com/monochrome-oled-breakouts/python-usage-2 . Requires to enter a virtual Python environment, to install the libraries "sys", "json", "time", "board", "digitalio", "pillow" and "adafruit_ssd1306".
 - **requirements.txt**: Contains the required python packages to be installed
 - **activate.txt**: Setups the python enviroment and installs the packages listed in 'requirements.txt'
+
+## Updating The Deep Learning Model
+- update_raspiID.py ....: Olaolu
+- rapiivv2?... 
 # Steps to run the system
 
 1. Move all 'pulzelock_main' files onto the Raspberry Pi device.
