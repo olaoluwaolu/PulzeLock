@@ -9,6 +9,12 @@ PulzeLock is an early prototype of a device capable of estimating heart rate, br
 # Hardware Schematic
 ![image](https://github.com/user-attachments/assets/5a2d26fb-f585-448d-b378-17aca690949c)
 
+The used OLED screen can be purchased at:
+https://www.adafruit.com/product/326
+
+The used camera can be purchased at:
+https://www.raspberrypi.com/products/camera-module-v2/
+
 # Theory - Vital Signs Extraction
 For vital signs extraction, we record an RGB video of the user's illuminated finger and extract the intensity of light across all frames of the video. This creates a photopthelysmogram.
 ![image](https://github.com/user-attachments/assets/4a080818-9605-46e4-bff2-b64f43495168)
