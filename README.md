@@ -9,10 +9,10 @@ PulzeLock is an early prototype of a device capable of estimating heart rate, br
 # Hardware Schematic
 ![image](https://github.com/user-attachments/assets/5a2d26fb-f585-448d-b378-17aca690949c)
 
-The used OLED screen can be purchased at:
+The used OLED screen (Adafruit SSD1306 128x64) can be purchased at:
 https://www.adafruit.com/product/326
 
-The used camera can be purchased at:
+The used camera (Raspberry Pi Camera V2.1) can be purchased at:
 https://www.raspberrypi.com/products/camera-module-v2/
 
 # Theory - Vital Signs Extraction
