@@ -17,9 +17,8 @@ https://www.raspberrypi.com/products/camera-module-v2/
 
 # Theory - Vital Signs Extraction
 For vital signs extraction, we record an RGB video of the user's illuminated finger and extract the intensity of light across all frames of the video. This creates a photopthelysmogram.
-![image](https://github.com/user-attachments/assets/4a080818-9605-46e4-bff2-b64f43495168)
 
-![image](https://github.com/user-attachments/assets/4b78aae6-d9e1-40ac-9eab-ceb596b92426)
+![image](https://github.com/user-attachments/assets/44cc7bd0-ea77-4179-867a-432c62a376c6)
 
 # Theory - User Identification
 Given a user's PPG, we try to authenticate them into the system. Below, we show the model used for this algorithm
