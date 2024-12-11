@@ -15,17 +15,12 @@ https://www.adafruit.com/product/326
 The used camera (Raspberry Pi Camera V2.1) can be purchased at:
 https://www.raspberrypi.com/products/camera-module-v2/
 
-# Theory - Vital Signs Extraction
-For vital signs extraction, we record an RGB video of the user's illuminated finger and extract the intensity of light across all frames of the video. This creates a photopthelysmogram.
+# Theory - Vital Signs Extraction + User Identification
++ For vital signs extraction, we record an RGB video of the user's illuminated finger and extract the intensity of light across all frames of the video. This creates a photopthelysmograph.
+
++ With this PPG signal, we can either extract the vital signs (heart rate, oxygen saturation, and breathing rate), or proceed to determine who the signal belongs to using the algorithm in blue.
 
 ![image](https://github.com/user-attachments/assets/44cc7bd0-ea77-4179-867a-432c62a376c6)
-
-# Theory - User Identification
-Given a user's PPG, we try to authenticate them into the system. Below, we show the model used for this algorithm
-![PulzePioneerz - ID Pipeline](https://github.com/user-attachments/assets/d1fbcd06-75e5-40d8-8c0b-fb9a890a3d72)
-
--OLAOLU: put hyperparameters
-
 
 # Future Work
 Currently, our proposed algorithm for user identification via deep learning is unable to distinguish between users. Future work to improve this includes:
