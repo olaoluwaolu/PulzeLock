@@ -15,8 +15,6 @@ import keras_cv
 
 
 #Updated code for raspberry Pi
-#this should imagine user 2 and user 3 are the authorized users and everyone else is an imposter
-#
 
 global json_folder_path
 json_folder_path = r'Specify-Path-to-Folder-of-JSON-PPG-Signals'  # Update with your path
