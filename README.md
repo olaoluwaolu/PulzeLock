@@ -9,7 +9,8 @@ PulzeLock is an early prototype of a device capable of estimating heart rate, br
 
 
 # Hardware Schematic
-![image](https://github.com/user-attachments/assets/5a2d26fb-f585-448d-b378-17aca690949c)
+<img src="https://github.com/user-attachments/assets/5a2d26fb-f585-448d-b378-17aca690949c" alt="image" width="50%">
+
 
 The used OLED screen (Adafruit SSD1306 128x64) can be purchased at:
 https://www.adafruit.com/product/326
