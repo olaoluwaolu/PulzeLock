@@ -26,6 +26,8 @@ https://www.raspberrypi.com/products/camera-module-v2/
 
 + With this PPG signal, we can either extract the vital signs (heart rate, oxygen saturation, and breathing rate) or proceed to determine who the signal belongs to using the algorithm in blue.
 
++ _Note_: There were 3 contributors to this project: Logan Drake, Jonas Mueller, and Olaolu Olugbenle. P(L), P(J), and P(O) represent the probability of the signal belonging to each contributor, respectively, while P(i) is the probability of the signal belonging to an imposter
+
 ![image](https://github.com/user-attachments/assets/44cc7bd0-ea77-4179-867a-432c62a376c6)
 
 # Files + Description
